@@ -1,0 +1,40 @@
+{
+  "name": "Chris McGowen's Portfolio",
+  "version": "1.0.0",
+  "description": "Chris' Website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "prettier": "prettier -write .",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qolors/portfolio.git"
+  },
+  "keywords": [],
+  "author": "Chris McGowen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Qolors/portfolio/issues"
+  },
+  "homepage": "https://github.com/Qolors/portfolio#readme",
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.4",
+    "@chakra-ui/react": "^2.2.3",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@splinetool/react-spline": "^2.2.1",
+    "@splinetool/runtime": "^0.9.78",
+    "framer-motion": "^6.5.0",
+    "next": "^12.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.19.0",
+    "eslint-config-next": "^12.2.2",
+    "prettier": "^2.7.1"
+  }
+}
