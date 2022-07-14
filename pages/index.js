@@ -3,6 +3,8 @@ import { Container, Box, Heading, useColorMode, useColorModeValue, Link, Button 
 import Section from "../components/section"
 import Paragraph from "../components/paragraph"
 import { ChevronRightIcon } from '@chakra-ui/icons'
+import { ArrowRightIcon } from '@chakra-ui/icons'
+import { BioSection, BioYear } from '../components/bios'
 
 const Page = () => {
     return (
@@ -34,6 +36,39 @@ const Page = () => {
                         </Button>
                     </NextLink>
                 </Box>
+            </Section>
+            <Section delay={0.2}>
+                <Heading as="h3" variant="section-title">
+                    Bio
+                </Heading>
+                <BioSection>
+                    <BioYear>1995<ArrowRightIcon ml={2} w=".5em" h=".5em" /></BioYear>
+                    Born in Oxford, Michigan
+                </BioSection>
+                <BioSection>
+                    <BioYear>2015<ArrowRightIcon ml={2} w=".5em" h=".5em" /></BioYear>
+                    Began working in Automotive Design - Discovered my liking for Computers
+                </BioSection>
+                <BioSection>
+                    <BioYear>2018<ArrowRightIcon ml={2} w=".5em" h=".5em" /></BioYear>
+                    Worked with Robot Programming - Discovered love for programming
+                </BioSection>
+                <BioSection>
+                    <BioYear>2020<ArrowRightIcon ml={2} w=".5em" h=".5em" /></BioYear>
+                    Built automation programs for HMS Engineering
+                </BioSection>
+                <BioSection>
+                    <BioYear>2021 to present<ArrowRightIcon ml={2} w=".5em" h=".5em" /></BioYear>
+                    Pursuing a career in Front End Development
+                </BioSection>
+            </Section>
+            <Section delay={0.3}>
+                <Heading as="h3" variant="section-title">
+                    Joys &#9829;
+                </Heading>
+                <Paragraph>
+                    Gaming, Photography, Programming, Baseball, Electric Unicycling
+                </Paragraph>
             </Section>
         </Container>
         
