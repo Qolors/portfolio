@@ -1,5 +1,5 @@
 import NextLink from 'next/link'
-import { Container, Box, Heading, useColorMode, useColorModeValue, Link, Button } from "@chakra-ui/react"
+import { Container, Box, Heading, useColorMode, useColorModeValue, Link, Button, Image } from "@chakra-ui/react"
 import Section from "../components/section"
 import Paragraph from "../components/paragraph"
 import Layout from '../components/layouts/article'
@@ -13,6 +13,14 @@ const Page = () => {
             <Container>
                 <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mt={3} mb={6} align='center'>
                     Hello, I'm a frontend developer based in Ann Arbor Michigan!
+                </Box>
+                <Box
+                    flexShrink={0}
+                    mt={{ base: 4, md: 0 }}
+                    ml={{ md: 6 }}
+                    align="center"
+                >
+                    <Image borderColor="whiteAlpha.800" borderWidth={2} borderStyle="solid" maxWidth="200px" display="inline-block" borderRadius="full" src="/images/profile.jpg" alt="Profile Image" />
                 </Box>
                 <Box display ={{md:'flex'}}>
                     <Box flexGrow={1}>

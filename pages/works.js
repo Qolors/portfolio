@@ -2,6 +2,10 @@ import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 import thumbSocial from '../public/images/works/thumbSocial.png'
+import thumbRPS from '../public/images/works/thumbRPS.png'
+import thumbRest from '../public/images/works/thumbRest.png'
+import thumbLand from '../public/images/works/thumbLand.png'
+import thumbEtch from '../public/images/works/thumbEtch.png'
 import Layout from '../components/layouts/article'
 
 const Works = () => {
@@ -12,28 +16,29 @@ const Works = () => {
                     Works
                 </Heading>
                 <SimpleGrid columns={[1,1,2]} gap={6}>
-                    <Section delay={0.1}>
-                        <WorkGridItem id="social" title="Social Connect" thumbnail={thumbSocial}>
-                            A Social Contact hub. This project was
-                            made completely by me excluding the music(video, cinematography, page, design).
+                <Section delay={0.1}>
+                        <WorkGridItem id="etch" title="Etch-a-Sketch" thumbnail={thumbEtch}>
+                            A Javascript Etch-a-Sketch.
                         </WorkGridItem>
                     </Section>
                     <Section delay={0.2}>
                         <WorkGridItem id="social" title="Social Connect" thumbnail={thumbSocial}>
-                            A Social Contact hub. This project was
-                            made completely by me excluding the music(video, cinematography, page, design).
+                            A social contact page design.
                         </WorkGridItem>
                     </Section>
                     <Section delay={0.3}>
-                        <WorkGridItem id="social" title="Social Connect" thumbnail={thumbSocial}>
-                            A Social Contact hub. This project was
-                            made completely by me excluding the music(video, cinematography, page, design).
+                        <WorkGridItem id="rps" title="RPS" thumbnail={thumbRPS}>
+                            A Rock Paper Scissors Game.
                         </WorkGridItem>
                     </Section>
                     <Section delay={0.4}>
-                        <WorkGridItem id="social" title="Social Connect" thumbnail={thumbSocial}>
-                            A Social Contact hub. This project was
-                            made completely by me excluding the music(video, cinematography, page, design).
+                        <WorkGridItem id="restaurant" title="Krazy Kat's" thumbnail={thumbRest}>
+                            A Restaurant Page.
+                        </WorkGridItem>
+                    </Section>
+                    <Section delay={0.5}>
+                        <WorkGridItem id="landing" title="Landing Page Design" thumbnail={thumbLand}>
+                            A Club Landing Page.
                         </WorkGridItem>
                     </Section>
                 </SimpleGrid>
