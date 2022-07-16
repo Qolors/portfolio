@@ -18,27 +18,27 @@ const Works = () => {
                 <SimpleGrid columns={[1,1,2]} gap={6}>
                 <Section delay={0.1}>
                         <WorkGridItem id="etch" title="Etch-a-Sketch" thumbnail={thumbEtch}>
-                            A Javascript Etch-a-Sketch.
+                            Application
                         </WorkGridItem>
                     </Section>
                     <Section delay={0.2}>
                         <WorkGridItem id="social" title="Social Connect" thumbnail={thumbSocial}>
-                            A social contact page design.
+                            Web Page
                         </WorkGridItem>
                     </Section>
                     <Section delay={0.3}>
                         <WorkGridItem id="rps" title="RPS" thumbnail={thumbRPS}>
-                            A Rock Paper Scissors Game.
+                            Application
                         </WorkGridItem>
                     </Section>
                     <Section delay={0.4}>
                         <WorkGridItem id="restaurant" title="Krazy Kat's" thumbnail={thumbRest}>
-                            A Restaurant Page.
+                            Web Page
                         </WorkGridItem>
                     </Section>
                     <Section delay={0.5}>
                         <WorkGridItem id="landing" title="Landing Page Design" thumbnail={thumbLand}>
-                            A Club Landing Page.
+                            Web Page
                         </WorkGridItem>
                     </Section>
                 </SimpleGrid>

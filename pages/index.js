@@ -12,7 +12,7 @@ const Page = () => {
         <Layout>
             <Container>
                 <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mt={3} mb={6} align='center'>
-                    Hello, I'm a frontend developer based in Ann Arbor Michigan!
+                    Digital Craftsman based in Ann Arbor Michigan!
                 </Box>
                 <Box
                     flexShrink={0}
@@ -27,17 +27,15 @@ const Page = () => {
                         <Heading as="h2" variant="page-title">
                             Chris McGowen
                         </Heading>
-                        <p>A loving Cat Dad / Self-Taught Developer / Everyday Learner</p>
+                        <p>Front End Developer</p>
                     </Box>
                 </Box>
                 <Section delay={0.1}>
                     <Heading as="h3" variant="section-title">
                         Work
                     </Heading>
-                    <Paragraph>I'm a self-taught Front End Developer looking for a break into the industry.
-                        Every day I spend learning to further improve my skills. Dev life has become
-                        a huge part of my life - some would call it a hobby or job. Yet for me it
-                        seems to have become a passion.
+                    <Paragraph>I'm a self-taught Front End Developer looking for a break in to the industry.
+                        I build dynamic, responsive and concise applications with a strong passion.
                     </Paragraph>
                     <Box align='center' my={4}>
                         <NextLink href="/works">
@@ -57,19 +55,19 @@ const Page = () => {
                     </BioSection>
                     <BioSection>
                         <BioYear>2015<ArrowRightIcon ml={2} w=".5em" h=".5em" /></BioYear>
-                        Began working in Automotive Design - Discovered my liking for Computers
+                        Began work at HMS in <strong>Automotive Design</strong>
                     </BioSection>
                     <BioSection>
                         <BioYear>2018<ArrowRightIcon ml={2} w=".5em" h=".5em" /></BioYear>
-                        Worked with Robot Programming - Discovered love for programming
+                        Began work at Matrix in <strong>Control Progamming</strong>
                     </BioSection>
                     <BioSection>
                         <BioYear>2020<ArrowRightIcon ml={2} w=".5em" h=".5em" /></BioYear>
-                        Built automation programs for HMS Engineering
+                        Began again at HMS in <strong>building automation programs</strong>
                     </BioSection>
                     <BioSection>
                         <BioYear>2021 to present<ArrowRightIcon ml={2} w=".5em" h=".5em" /></BioYear>
-                        Pursuing a career in Front End Development
+                        Pursuing a career in <strong>Front End Development</strong>
                     </BioSection>
                 </Section>
                 <Section delay={0.3}>
