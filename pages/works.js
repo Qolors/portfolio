@@ -6,6 +6,7 @@ import thumbRPS from '../public/images/works/thumbRPS.png'
 import thumbRest from '../public/images/works/thumbRest.png'
 import thumbLand from '../public/images/works/thumbLand.png'
 import thumbEtch from '../public/images/works/thumbEtch.png'
+import thumbShare from '../public/images/thumbShare.png'
 import Layout from '../components/layouts/article'
 
 const Works = () => {
@@ -13,7 +14,17 @@ const Works = () => {
         <Layout>
             <Container w="100%">
                 <Heading as="h3" fontSize={20} mb={4}>
-                    Works
+                    Projects
+                </Heading>
+                <SimpleGrid columns={[1,1,2]} gap={6}>
+                    <Section delay={0.1}>
+                        <WorkGridItem id="sharethought" title="ShareThought" thumbnail={thumbShare}>
+                                Application
+                        </WorkGridItem>
+                    </Section>
+                </SimpleGrid>
+                <Heading as="h3" fontSize={20} mb={4}>
+                    Course Work
                 </Heading>
                 <SimpleGrid columns={[1,1,2]} gap={6}>
                 <Section delay={0.1}>
