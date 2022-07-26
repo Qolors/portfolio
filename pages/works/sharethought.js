@@ -19,7 +19,7 @@ const Work = () => {
                     <br />
                         - Google Account Authorization
                     <br />
-                        - "Heart React" counter feature
+                        - Heart React counter feature
                     <br />
                         - Live post feed
                     <br />
