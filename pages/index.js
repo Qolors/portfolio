@@ -12,7 +12,7 @@ const Page = () => {
         <Layout>
             <Container>
                 <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mt={3} mb={6} align='center'>
-                    Digital Craftsman based in Ann Arbor Michigan!
+                    A Digital Craftsman based in Ann Arbor Michigan
                 </Box>
                 <Box
                     flexShrink={0}
@@ -20,7 +20,7 @@ const Page = () => {
                     ml={{ md: 6 }}
                     align="center"
                 >
-                    <Image borderColor="whiteAlpha.800" borderWidth={2} borderStyle="solid" maxWidth="200px" display="inline-block" borderRadius="full" src="/images/profile.jpg" alt="Profile Image" />
+                    <Image borderColor="whiteAlpha.800" maxWidth="250px" display="inline-block" borderRadius="full" src={useColorModeValue("./images/lightgif.gif", "./images/darkgif.gif")} alt="Profile Image" />
                 </Box>
                 <Box display ={{md:'flex'}}>
                     <Box flexGrow={1}>
@@ -34,7 +34,7 @@ const Page = () => {
                     <Heading as="h3" variant="section-title">
                         Work
                     </Heading>
-                    <Paragraph>I am a self-taught Front End Developer looking for a break in to the industry.
+                    <Paragraph>I am a self-taught Front End Developer.
                         I build dynamic, responsive and concise applications with a strong passion.
                     </Paragraph>
                     <Box align='center' my={4}>
@@ -54,20 +54,16 @@ const Page = () => {
                         Born in Oxford, Michigan
                     </BioSection>
                     <BioSection>
-                        <BioYear>2015<ArrowRightIcon ml={2} w=".5em" h=".5em" /></BioYear>
-                        Began work at HMS in <strong>Automotive Design</strong>
-                    </BioSection>
-                    <BioSection>
                         <BioYear>2018<ArrowRightIcon ml={2} w=".5em" h=".5em" /></BioYear>
-                        Began work at Matrix in <strong>Control Progamming</strong>
+                        Industrial Controls Progamming
                     </BioSection>
                     <BioSection>
                         <BioYear>2020<ArrowRightIcon ml={2} w=".5em" h=".5em" /></BioYear>
-                        Began again at HMS in <strong>building automation programs</strong>
+                        Automation Programming
                     </BioSection>
                     <BioSection>
-                        <BioYear>2021 to present<ArrowRightIcon ml={2} w=".5em" h=".5em" /></BioYear>
-                        Pursuing a career in <strong>Front End Development</strong>
+                        <BioYear>Present<ArrowRightIcon ml={2} w=".5em" h=".5em" /></BioYear>
+                        <strong>Front End Development</strong>
                     </BioSection>
                 </Section>
                 <Section delay={0.3}>

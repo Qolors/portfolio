@@ -14,7 +14,7 @@ const Works = () => {
         <Layout>
             <Container w="100%">
                 <Heading as="h3" fontSize={20} mb={4}>
-                    Projects
+                    Personal Projects
                 </Heading>
                 <SimpleGrid columns={[1,1,2]} gap={6}>
                     <Section delay={0.1}>
@@ -22,19 +22,19 @@ const Works = () => {
                                 Application
                         </WorkGridItem>
                     </Section>
+                    <Section delay={0.2}>
+                        <WorkGridItem id="social" title="Social Connect" thumbnail={thumbSocial}>
+                            Web Page
+                        </WorkGridItem>
+                    </Section>
                 </SimpleGrid>
                 <Heading as="h3" fontSize={20} mb={4}>
                     Course Work
                 </Heading>
                 <SimpleGrid columns={[1,1,2]} gap={6}>
-                <Section delay={0.1}>
+                    <Section delay={0.1}>
                         <WorkGridItem id="etch" title="Etch-a-Sketch" thumbnail={thumbEtch}>
                             Application
-                        </WorkGridItem>
-                    </Section>
-                    <Section delay={0.2}>
-                        <WorkGridItem id="social" title="Social Connect" thumbnail={thumbSocial}>
-                            Web Page
                         </WorkGridItem>
                     </Section>
                     <Section delay={0.3}>

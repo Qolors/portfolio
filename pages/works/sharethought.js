@@ -11,11 +11,21 @@ const Work = () => {
                     A Free Post Social Hub <Badge>2022</Badge>
                 </Title>
                 <P>
-                    My first full stack project. ThoughtShare is an open social platform to post
+                    ThoughtShare is an open social platform to post
                     your thoughts. Made in inspiration from sites like Dev.to.
+                    <br />
 
-                    This is currently a work in progress continuously being worked on as I further
-                    develop my skills.
+                    Current Features:
+                    <br />
+                        - Google Account Authorization
+                    <br />
+                        - "Heart React" counter feature
+                    <br />
+                        - Live post feed
+                    <br />
+                        - Post History & Editing
+
+
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>

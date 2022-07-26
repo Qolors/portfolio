@@ -11,8 +11,9 @@ const Work = () => {
                     Social Connect <Badge>2022</Badge>
                 </Title>
                 <P>
-                    A Social Connect Platform. The entire was project was built by me
-                    (excluding the music..) - Videography - Editing - Web Design.
+                    A Social Connect Platform. This was a passion project, with the entirity built by me
+                    excluding the music. <br />
+                    Videography - Editing - Web Design
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
