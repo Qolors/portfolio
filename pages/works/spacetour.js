@@ -19,11 +19,11 @@ const Work = () => {
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Website</Meta>
-                        <Link href="https://social-clone-pearl.vercel.app/">Live Demo</Link>
+                        <Link href="https://space-tourism-theta.vercel.app/">Live Demo</Link>
                     </ListItem>
                     <ListItem>
                         <Meta>Code</Meta>
-                        <Link href="https://github.com/Qolors/social_clone">Github</Link>
+                        <Link href="https://github.com/Qolors/space_tourism">Github</Link>
                     </ListItem>
                     <ListItem>
                         <Meta>Stack</Meta>
