@@ -5,7 +5,7 @@ const Resume = () => {
     return (
         <Layout>
             <Container w="100%">
-                <Image src="/images/resume.svg" alt="Resume" backgroundColor="white" />
+                <Image src="/images/resume.jpg" alt="Resume" backgroundColor="white" />
             </Container>
         </Layout>
     )
