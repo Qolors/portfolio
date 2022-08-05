@@ -8,6 +8,7 @@ import thumbLand from '../public/images/works/thumbLand.png'
 import thumbEtch from '../public/images/works/thumbEtch.png'
 import thumbShare from '../public/images/thumbShare.png'
 import thumbSpace from '../public/images/thumbSpace.png'
+import thumbStat from '../public/images/thumbStat.png'
 import Layout from '../components/layouts/article'
 
 const Works = () => {
@@ -18,6 +19,11 @@ const Works = () => {
                     Personal Projects
                 </Heading>
                 <SimpleGrid columns={[1,1,2]} gap={6}>
+                    <Section delay={0.1}>
+                        <WorkGridItem id="natstat" title="NatStat" thumbnail={thumbStat}>
+                                Application
+                        </WorkGridItem>
+                    </Section>
                     <Section delay={0.1}>
                         <WorkGridItem id="spacetour" title="Space Tours" thumbnail={thumbSpace}>
                                 Web Page
